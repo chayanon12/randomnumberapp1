@@ -1,0 +1,13 @@
+void main() {
+  runApp(
+    Center(
+      child: Text(
+          '${ Random().nextInt(100) }',
+          style: TextStyle(
+              fontSize: 100.0,
+              color: Colors.orange
+          ), textDirection: TextDirection.rtl
+      ),
+    ),
+  );
+}
